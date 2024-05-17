@@ -1,0 +1,15 @@
+.app {
+  width: 1274px;
+  margin: 0 auto;
+  background-color: #212123;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.foot {
+  margin-top: 20px;
+}

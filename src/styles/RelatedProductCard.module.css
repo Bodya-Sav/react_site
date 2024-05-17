@@ -1,0 +1,37 @@
+/* src/styles/RelatedProductCard.module.css */
+.productCard {
+    background: #212123;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .productInfo {
+    margin-top: 12px;
+  }
+  
+  .productName {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .productCategory {
+    color: #aaa;
+  }
+  
+  .productPrice {
+    color: #aaa;
+  }
+  
+  .productRating {
+    color: #aaa;
+  }
+  

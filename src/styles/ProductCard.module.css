@@ -1,0 +1,41 @@
+.product {
+  display: flex;
+  flex-grow: 1;
+  max-width: 350px;
+  padding: 24px;
+  column-gap: 32px;
+  background-color: #212123;
+  margin: 10px;
+  border-radius: 20px;
+
+  &:hover { 
+    box-shadow: 3px 3px 3px rgb(99, 99, 99), -3px 0px 3px #26bfd3b2;
+    transition: .3s;
+    cursor: pointer; 
+  }
+
+  &:not(:hover) {
+    transition: .3s;
+  }
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  color: aliceblue;
+  margin-left: 10px;
+}
+
+p {
+  color: aliceblue;
+  margin-left: 50px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 140px;
+}

@@ -1,0 +1,11 @@
+.filter select {
+    background-color: #212123;
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    margin-right: 10px;
+
+    &:hover {
+        color: #26bfd3;
+    }
+}
